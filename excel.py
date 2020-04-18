@@ -1,5 +1,5 @@
 import xlwt
-
+# 这个主要将txt文件转为excel
 xsl_path = '夏装女短裙.xls'
 workbook = xlwt.Workbook(encoding='utf-8')
 worksheet = workbook.add_sheet('My Sheet')
